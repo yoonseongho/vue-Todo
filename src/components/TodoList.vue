@@ -25,7 +25,7 @@ export default {
   methods: {
     removeTodo: function (todoItem, index) {
       localStorage.removeItem(todoItem);
-      this.todoItems.splice(index, 1); //특정 index에서 하나를 지울 수 있음
+      this.todoItems.splice(index, 1);
     },
   },
   created: function () {
